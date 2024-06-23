@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    background: url(./images/abstract-pattern-various-geometric-shapes-by-hand-peach-color-seamless-background-for-wallpaper-wrapping-paper-textile-scrapbooking-vector.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.page{
+    min-height: 100vh;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    background-color: rgb(112, 174, 195);
+    height: 60px;
+}
+.menu{
+    margin: auto;
+    min-width: 650px;
+    width: 60vw;
+}
+.nav ul{
+    margin: 0;
+    float: right;
+
+}
+.nav li{
+    display: inline-block;
+    min-width: 80px;
+    width: 7vw;
+    background-color: rgb(135, 196, 216);
+    height: 45px;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: 7px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+.menu a, .toTop a{
+    font-size: larger;
+    color: rgb(96, 96, 96);
+    text-decoration: none;
+}
+.nav li:hover, .toTop:hover{
+    background-color: rgb(62, 103, 116);
+}
+.nav li:hover a, .toTop:hover a{
+    color: aliceblue;
+}
+img{
+    height: 45px;
+    margin-top: 7px;
+}
+.main{
+    display: block;
+    width: 60vw;
+    min-width: 650px;
+    background-color: rgb(233, 239, 241);
+    margin: auto;
+    border-radius: 0 0 15px 15px;
+}
+.foot{
+    width: 100%;
+    background-color: rgb(112, 174, 195);
+    height: 90px;
+    position: absolute;
+    bottom: -90px;
+}
+.wrap{
+    width: 250px;
+    margin: auto;
+}
+.toTop{
+    display: inline-block;
+    width: 250px;
+    background-color:rgb(135, 196, 216);
+    height: 45px;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: 7px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+.rowA, .rowB{
+    display:inline-block;
+    width: 60vw;
+    min-width: 650px;
+    height: fit-content;
+    margin-top: 20px;
+}
+.colA{
+    display: inline-flex;
+    box-sizing: border-box;
+    float: left;
+    min-width: 325px;
+    width: 30vw;
+    justify-content: center;
+}
+.colB{
+    display: inline-flex;
+    box-sizing: border-box;
+    float: left;
+    min-width: 325px;
+    width: 30vw;
+    justify-content: center;
+}
+.rowA img, .rowB img{
+    width: 25vw;
+    min-width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.text{
+    background-color: rgb(112, 174, 195);
+    min-width: 300px;
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+    width: 25vw;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(37, 37, 37);
+    padding: 5px;
+}
